@@ -34,7 +34,7 @@ namespace _4_S111_Nullable
             }
             else
             {
-                Console.WriteLine("Wert nicht gesetzt.");
+                Console.WriteLine("Wert leider nicht gesetzt.");
             }
         }
     }
