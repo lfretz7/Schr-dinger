@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_S100_Strings", "Strings\4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_S108_VerdrehteWelt", "4_S108_VerdrehteWelt\4_S108_VerdrehteWelt.csproj", "{022499E4-AFBE-4C6D-8BE3-CC1888D424C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_S111_Nullable", "4_S111_Nullable\4_S111_Nullable.csproj", "{D3017D44-12A5-4128-ABD3-201864E44956}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_S111_Nullable", "4_S111_Nullable\4_S111_Nullable.csproj", "{D3017D44-12A5-4128-ABD3-201864E44956}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_S109_TextSuche", "4_S109_TextSuche\4_S109_TextSuche.csproj", "{446A8A4E-F7C0-4D83-BCCE-E15B0063E69A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_S109_TextSuche", "4_S109_TextSuche\4_S109_TextSuche.csproj", "{446A8A4E-F7C0-4D83-BCCE-E15B0063E69A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_S120_Enumeration", "5_S120_Enumeration\5_S120_Enumeration.csproj", "{95CAA943-E31E-499F-9EBC-F266043A1264}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{446A8A4E-F7C0-4D83-BCCE-E15B0063E69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{446A8A4E-F7C0-4D83-BCCE-E15B0063E69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{446A8A4E-F7C0-4D83-BCCE-E15B0063E69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CAA943-E31E-499F-9EBC-F266043A1264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CAA943-E31E-499F-9EBC-F266043A1264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CAA943-E31E-499F-9EBC-F266043A1264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CAA943-E31E-499F-9EBC-F266043A1264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
