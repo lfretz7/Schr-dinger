@@ -14,6 +14,10 @@ namespace _5_S120_Enumeration
             Saturday,
             Sunday
         }
+            enum WoWVolk
+        {
+            Menschen, Zwerge, Gnome, Nachtelfen, Draenei, Worgen, Orcs, Untote, Tauren, Trolle, Blutelfen, Goblins, Pandaren
+        }
         static void Main(string[] args)
         {
             //S. 120
@@ -28,6 +32,16 @@ namespace _5_S120_Enumeration
             Weekday myDay = (Weekday)Enum.Parse(typeof(Weekday), day);
             Console.WriteLine($"Der eingegebene Wochentag im Enum-Typ ist:{myDay}");
 
+            //WoW-Völker S. 124
+            WoWVolk meinVolk = WoWVolk.Blutelfen;
+            if (meinVolk == WoWVolk.Orcs)
+            {
+                Console.WriteLine("Dieses Volk spielt Schrödinger.");
+            }
+            else
+            {
+                Console.WriteLine($"Aktuell wird das Volk: {meinVolk} gespielt");
+            }
         }
     }
 }
