@@ -46,6 +46,18 @@ namespace _6_S128_Methoden
             Increment(ref a);
             Console.WriteLine(a);
 
+            //BMI-Rechner S. 145
+            Console.WriteLine("Grösse eingeben:");
+            float height = float.Parse(Console.ReadLine());
+            Console.WriteLine("Gewicht eingeben:");
+            float test1 = float.Parse(Console.ReadLine());
+            float bmi = CalculateBMI(weight : test1, height);
+            Console.WriteLine(bmi);
+
+        }
+        static float CalculateBMI(float weight, float height = 1.80F)
+        {
+            return weight / (height * height);
         }
     }
 }
