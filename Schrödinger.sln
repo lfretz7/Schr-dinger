@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_S120_Enumeration", "5_S12
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_S128_Methoden", "6_S128_Methoden\6_S128_Methoden.csproj", "{7203A56F-BF18-4AF2-B317-1525E1E86BA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_S150_Rekursion und Dateisystem", "Rekursion und Dateisystem\6_S150_Rekursion und Dateisystem.csproj", "{A30B836C-72F1-4F30-86F3-06E46294BB70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_S150_Fakultät-, Fibonaccifunktion", "Rekursion und Dateisystem\6_S150_Fakultät-, Fibonaccifunktion.csproj", "{A30B836C-72F1-4F30-86F3-06E46294BB70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
