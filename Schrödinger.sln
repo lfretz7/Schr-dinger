@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_S150_Fakultät-, Fibonacc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_S150_DateisystemSuche", "6_S150_DateisystemSuche\6_S150_DateisystemSuche.csproj", "{1212B862-F288-4E3B-BFA8-180D99CF9599}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_S150_DateiSystemSucheBaum", "6_S150_DateiSystemsucheBaum\6_S150_DateiSystemSucheBaum.csproj", "{5294C1B2-4B12-4769-B87F-E224BC6E843C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{1212B862-F288-4E3B-BFA8-180D99CF9599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1212B862-F288-4E3B-BFA8-180D99CF9599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1212B862-F288-4E3B-BFA8-180D99CF9599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5294C1B2-4B12-4769-B87F-E224BC6E843C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5294C1B2-4B12-4769-B87F-E224BC6E843C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5294C1B2-4B12-4769-B87F-E224BC6E843C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5294C1B2-4B12-4769-B87F-E224BC6E843C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
