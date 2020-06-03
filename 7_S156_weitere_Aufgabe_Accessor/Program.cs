@@ -24,7 +24,7 @@ namespace _7_S156_weitere_Aufgabe_Accessor
             public Sex Sex { get; set; }
             static void Main(string[] args)
             {
-                Person lfretz = new Person();
+                Person lfretz = new Person(); // Objekt lfretz erstellt
                 lfretz.birthday = DateTime.Parse("12.03.2001 12:00:00");
                 lfretz.Sex = Sex.Male;
                 Console.WriteLine("Geburtsdatum:  " + lfretz.birthday);

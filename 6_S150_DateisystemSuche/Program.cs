@@ -17,7 +17,7 @@ namespace _6_S150_DateisystemSuche
 
             if (dirs.Length > 0)
             {
-                Console.WriteLine("Es ist eine Datei mit dem Namen {0} vorhanden:", searchPattern);
+                Console.WriteLine("Es sind Dateien mit dem Namen {0} vorhanden:", searchPattern);
                 foreach (string dir in dirs)
                 {
                     Console.WriteLine(dir);

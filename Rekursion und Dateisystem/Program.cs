@@ -34,7 +34,7 @@ namespace Rekursion_und_Dateisystem
             return fibonaccirekursiv(number - 1) + fibonaccirekursiv(number - 2);
         }
 
-        public static int fibonacciiterativ(int number) // Fibonaccifunktion
+        public static int fibonacciiterativ(int number) // Iterative Fibonaccifunktion
         {
             int first = 0, second = 1;
 
@@ -57,7 +57,7 @@ namespace Rekursion_und_Dateisystem
             Console.WriteLine(factorialiterativ(parseNumber1));
 
 
-            //Abfrage der gewünschten Zahl (Fakultät)
+            //Abfrage der gewünschten Zahl (Fibonacci)
             Console.WriteLine("Von welcher Zahl möchten Sie die Fibonacci-Folge wissen?");
             string eingabe2 = Console.ReadLine();
             int parseNumber2 = int.Parse(eingabe2);
