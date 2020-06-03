@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_7_S156_weitere_Aufgabe_Accessor</RootNamespace>
+  </PropertyGroup>
+
+</Project>

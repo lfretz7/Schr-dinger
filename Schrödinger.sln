@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_S150_DateiSystemSucheBaum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S154_Klasse_ausprogrammierter Accessor", "7_S154_Klasse Person\7_S154_Klasse_ausprogrammierter Accessor.csproj", "{E75031BC-0282-4BDF-8FED-6D264FC984CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S156_weitere_Aufgabe_Accessor", "7_S156_weitere_Aufgabe_Accessor\7_S156_weitere_Aufgabe_Accessor.csproj", "{EC7E326A-483F-4F89-BFC4-F86CFDE0FDED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{E75031BC-0282-4BDF-8FED-6D264FC984CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E75031BC-0282-4BDF-8FED-6D264FC984CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E75031BC-0282-4BDF-8FED-6D264FC984CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7E326A-483F-4F89-BFC4-F86CFDE0FDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7E326A-483F-4F89-BFC4-F86CFDE0FDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7E326A-483F-4F89-BFC4-F86CFDE0FDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7E326A-483F-4F89-BFC4-F86CFDE0FDED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

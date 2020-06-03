@@ -1,7 +1,8 @@
 ﻿using System;
 
-namespace _7_S154_Klasse_ausprogrammierter Accessor
-{
+namespace _7_S154_Klasse_ausprogrammierter_Accessor
+{ 
+
     class Program
     {
         class Person //neue Klasse: Person
