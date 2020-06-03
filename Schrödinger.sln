@@ -37,11 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_S120_Enumeration", "5_S12
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_S128_Methoden", "6_S128_Methoden\6_S128_Methoden.csproj", "{7203A56F-BF18-4AF2-B317-1525E1E86BA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_S150_Fakultät-, Fibonaccifunktion", "Rekursion und Dateisystem\6_S150_Fakultät-, Fibonaccifunktion.csproj", "{A30B836C-72F1-4F30-86F3-06E46294BB70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_S150_Fakultät-, Fibonaccifunktion", "Rekursion und Dateisystem\6_S150_Fakultät-, Fibonaccifunktion.csproj", "{A30B836C-72F1-4F30-86F3-06E46294BB70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_S150_DateisystemSuche", "6_S150_DateisystemSuche\6_S150_DateisystemSuche.csproj", "{1212B862-F288-4E3B-BFA8-180D99CF9599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_S150_DateisystemSuche", "6_S150_DateisystemSuche\6_S150_DateisystemSuche.csproj", "{1212B862-F288-4E3B-BFA8-180D99CF9599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_S150_DateiSystemSucheBaum", "6_S150_DateiSystemsucheBaum\6_S150_DateiSystemSucheBaum.csproj", "{5294C1B2-4B12-4769-B87F-E224BC6E843C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_S150_DateiSystemSucheBaum", "6_S150_DateiSystemsucheBaum\6_S150_DateiSystemSucheBaum.csproj", "{5294C1B2-4B12-4769-B87F-E224BC6E843C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S154_Klasse_ausprogrammierter Accessor", "7_S154_Klasse Person\7_S154_Klasse_ausprogrammierter Accessor.csproj", "{E75031BC-0282-4BDF-8FED-6D264FC984CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{5294C1B2-4B12-4769-B87F-E224BC6E843C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5294C1B2-4B12-4769-B87F-E224BC6E843C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5294C1B2-4B12-4769-B87F-E224BC6E843C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75031BC-0282-4BDF-8FED-6D264FC984CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75031BC-0282-4BDF-8FED-6D264FC984CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75031BC-0282-4BDF-8FED-6D264FC984CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75031BC-0282-4BDF-8FED-6D264FC984CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
