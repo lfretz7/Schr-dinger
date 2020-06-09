@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S156_weitere_Aufgabe_Acce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S170_Instanz-Methode(nichtstatisch)", "7_S170_Instanz-Methode\7_S170_Instanz-Methode(nichtstatisch).csproj", "{8D808A8D-F833-46D5-9134-B8C58D21C02B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S172_Konstruktor", "7_S172_Konstruktor\7_S172_Konstruktor.csproj", "{26C91D55-4B20-4DD5-883B-F88382D04D9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{8D808A8D-F833-46D5-9134-B8C58D21C02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D808A8D-F833-46D5-9134-B8C58D21C02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D808A8D-F833-46D5-9134-B8C58D21C02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C91D55-4B20-4DD5-883B-F88382D04D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C91D55-4B20-4DD5-883B-F88382D04D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C91D55-4B20-4DD5-883B-F88382D04D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C91D55-4B20-4DD5-883B-F88382D04D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
