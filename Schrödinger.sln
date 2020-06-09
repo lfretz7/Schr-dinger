@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S180_Struktur", "7_S180_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S182_Strukturen_ueberall", "7_S182_Strukturen_ueberall\7_S182_Strukturen_ueberall.csproj", "{3E0487C2-4064-4E8E-9985-EDB260FD1537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S184_Strukturen_ohne_Namen", "7_S184_Strukturen_ohne_Namen\7_S184_Strukturen_ohne_Namen.csproj", "{067CF50E-3AD2-487B-9139-F7E3F1C6DF7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{3E0487C2-4064-4E8E-9985-EDB260FD1537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E0487C2-4064-4E8E-9985-EDB260FD1537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E0487C2-4064-4E8E-9985-EDB260FD1537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067CF50E-3AD2-487B-9139-F7E3F1C6DF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067CF50E-3AD2-487B-9139-F7E3F1C6DF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067CF50E-3AD2-487B-9139-F7E3F1C6DF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067CF50E-3AD2-487B-9139-F7E3F1C6DF7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

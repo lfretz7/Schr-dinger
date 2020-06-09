@@ -8,23 +8,28 @@ namespace _7_S182_Strukturen_ueberall
         {
             public int Min { get; set; }
             public int Max { get; set; }
+            
         }
         static MinMax Range(int[] nums)
         {
             MinMax range = new MinMax();
             range.Min = int.MaxValue;
             range.Max = int.MinValue;
-            for (int i = object; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
                 if (nums[i] < range.Min)
-                    range.Min = nums[];
+                    range.Min = nums[i];
                 if (nums[i] > range.Max)
                     range.Max = nums[i];
             }
+            return range;
         }
+
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            (int Max, int Min) result = Range(new int[] { 2, 4, 3, 5, 1 });
+            Console.WriteLine($"Wertebereich: {result.Min} - {result.Max}");
         }
     }
 }
