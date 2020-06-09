@@ -47,9 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S154_Klasse_ausprogrammie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S156_weitere_Aufgabe_Accessor", "7_S156_weitere_Aufgabe_Accessor\7_S156_weitere_Aufgabe_Accessor.csproj", "{EC7E326A-483F-4F89-BFC4-F86CFDE0FDED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S170_Instanz-Methode(nichtstatisch)", "7_S170_Instanz-Methode\7_S170_Instanz-Methode(nichtstatisch).csproj", "{8D808A8D-F833-46D5-9134-B8C58D21C02B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S170_Instanz-Methode(nichtstatisch)", "7_S170_Instanz-Methode\7_S170_Instanz-Methode(nichtstatisch).csproj", "{8D808A8D-F833-46D5-9134-B8C58D21C02B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S172_Konstruktor", "7_S172_Konstruktor\7_S172_Konstruktor.csproj", "{26C91D55-4B20-4DD5-883B-F88382D04D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S172_Konstruktor", "7_S172_Konstruktor\7_S172_Konstruktor.csproj", "{26C91D55-4B20-4DD5-883B-F88382D04D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S180_Struktur", "7_S180_Struktur\7_S180_Struktur.csproj", "{6B89F2C0-B619-4E73-87D0-906D6BCA62B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{26C91D55-4B20-4DD5-883B-F88382D04D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C91D55-4B20-4DD5-883B-F88382D04D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C91D55-4B20-4DD5-883B-F88382D04D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B89F2C0-B619-4E73-87D0-906D6BCA62B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B89F2C0-B619-4E73-87D0-906D6BCA62B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B89F2C0-B619-4E73-87D0-906D6BCA62B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B89F2C0-B619-4E73-87D0-906D6BCA62B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
