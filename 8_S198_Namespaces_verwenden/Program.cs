@@ -1,5 +1,5 @@
 ﻿using System;
-using Schroedinger.Klassen.Program;
+using Schroedinger.Klassen;
 
 namespace Schroedinger
 {
@@ -7,7 +7,7 @@ namespace Schroedinger
     {
         static void Main(string[] args)
         {
-            Schroedinger.Klassen.Person p = new Schroedinger.Klassen.Person();
+            Schroedinger.Klassen.Program.Person p = new Schroedinger.Klassen.Program.Person();
 
         }
     }

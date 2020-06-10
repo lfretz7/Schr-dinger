@@ -10,7 +10,7 @@ namespace _7_S182_Strukturen_ueberall
             public int Max { get; set; }
             
         }
-        static MinMax Range(int[] nums)
+        static (int Max, int Min) Range(int[] nums)
         {
             MinMax range = new MinMax();
             range.Min = int.MaxValue;
@@ -22,7 +22,7 @@ namespace _7_S182_Strukturen_ueberall
                 if (nums[i] > range.Max)
                     range.Max = nums[i];
             }
-            return range;
+            return (range.Max, range.Min);
         }
 
 

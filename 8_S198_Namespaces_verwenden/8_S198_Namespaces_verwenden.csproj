@@ -6,4 +6,8 @@
     <RootNamespace>_8_S198_Namespaces_verwenden</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\7_S156_weitere_Aufgabe_Accessor\7_S156_weitere_Aufgabe_Accessor.csproj" />
+  </ItemGroup>
+
 </Project>

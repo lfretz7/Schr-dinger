@@ -15,7 +15,7 @@ namespace _7_S187_Zutatenstruktur_Array
 
         }
         //Array von einer Zutatenstruktur
-        
+
         static void Main(string[] args)
         {
             Ingredient[] ingredients = new Ingredient[2];
@@ -30,9 +30,9 @@ namespace _7_S187_Zutatenstruktur_Array
 
 
             (string Name, float Amount, string Unit)[]
-    ingredients = new (string Name, float Amount, string Unit)[2];
-            ingredients[0]("Wasser", 0.25F, "1");
-            ingredients[1]("Mehl", 30, "g");
+            zutat = new (string Name, float Amount, string Unit)[2];
+            zutat[0] = ("Wasser", 0.25F, "1");
+            zutat[1] = ("Mehl", 30, "g");
 
         }
     }

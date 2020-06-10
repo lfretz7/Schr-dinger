@@ -4,14 +4,22 @@ namespace _7_S182_Strukturen_ueberall
 {
     class Program
     {
-        struct MinMax
+
+
+        static (int Max, int Min) Range(int[] nums)
         {
-            public int Min { get; set; }
-            public int Max { get; set; }
 
+            var min = int.MaxValue;
+            var max = int.MinValue;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] < min)
+                    min = nums[i];
+                if (nums[i] > max)
+                    max = nums[i];
+            }
+            return (max, min);
         }
-        (int Max, int Min) Range(int[] nums);
-
 
         static void Main(string[] args)
         {
