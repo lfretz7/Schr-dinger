@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _7_S156_weitere_Aufgabe_Accessor
+namespace Schroedinger.Klassen
 {
     class Program
     {

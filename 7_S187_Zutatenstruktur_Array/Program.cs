@@ -1,15 +1,17 @@
 ﻿using System;
 
+
 namespace _7_S187_Zutatenstruktur_Array
 {
     class Program
     {
-        struct Zutaten
+        struct Ingredient
         {
             //einfache Zutatenstruktur
             public string Name { get; set; }
             public string Unit { get; set; }
-            public string Amount { get; set; }
+            public float Amount { get; set; }
+
 
         }
         //Array von einer Zutatenstruktur
@@ -25,6 +27,13 @@ namespace _7_S187_Zutatenstruktur_Array
             ingredients[1].Name = "Wasser";
             ingredients[1].Amount = 0.25f;
             ingredients[1].Unit = "1";
+
+
+            (string Name, float Amount, string Unit)[]
+    ingredients = new (string Name, float Amount, string Unit)[2];
+            ingredients[0]("Wasser", 0.25F, "1");
+            ingredients[1]("Mehl", 30, "g");
+
         }
     }
 }

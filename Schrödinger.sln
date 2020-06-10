@@ -51,13 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S170_Instanz-Methode(nich
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S172_Konstruktor", "7_S172_Konstruktor\7_S172_Konstruktor.csproj", "{26C91D55-4B20-4DD5-883B-F88382D04D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S180_Struktur", "7_S180_Struktur\7_S180_Struktur.csproj", "{6B89F2C0-B619-4E73-87D0-906D6BCA62B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S180_Struktur", "7_S180_Struktur\7_S180_Struktur.csproj", "{6B89F2C0-B619-4E73-87D0-906D6BCA62B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S182_Strukturen_ueberall", "7_S182_Strukturen_ueberall\7_S182_Strukturen_ueberall.csproj", "{3E0487C2-4064-4E8E-9985-EDB260FD1537}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S182_Strukturen_ueberall", "7_S182_Strukturen_ueberall\7_S182_Strukturen_ueberall.csproj", "{3E0487C2-4064-4E8E-9985-EDB260FD1537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S184_Strukturen_ohne_Namen", "7_S184_Strukturen_ohne_Namen\7_S184_Strukturen_ohne_Namen.csproj", "{067CF50E-3AD2-487B-9139-F7E3F1C6DF7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S184_Strukturen_ohne_Namen", "7_S184_Strukturen_ohne_Namen\7_S184_Strukturen_ohne_Namen.csproj", "{067CF50E-3AD2-487B-9139-F7E3F1C6DF7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_S187_Zutatenstruktur_Array", "7_S187_Zutatenstruktur_Array\7_S187_Zutatenstruktur_Array.csproj", "{3DB3512E-3619-4412-8378-4E2F8B9153E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_S187_Zutatenstruktur_Array", "7_S187_Zutatenstruktur_Array\7_S187_Zutatenstruktur_Array.csproj", "{3DB3512E-3619-4412-8378-4E2F8B9153E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_S198_Namespaces_verwenden", "8_S198_Namespaces_verwenden\8_S198_Namespaces_verwenden.csproj", "{99395A5E-16DB-45BF-AF61-4BAB9820BD51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{3DB3512E-3619-4412-8378-4E2F8B9153E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DB3512E-3619-4412-8378-4E2F8B9153E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DB3512E-3619-4412-8378-4E2F8B9153E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99395A5E-16DB-45BF-AF61-4BAB9820BD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99395A5E-16DB-45BF-AF61-4BAB9820BD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99395A5E-16DB-45BF-AF61-4BAB9820BD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99395A5E-16DB-45BF-AF61-4BAB9820BD51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
