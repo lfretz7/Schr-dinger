@@ -1,18 +1,18 @@
 ﻿using System;
 
-namespace _7_S154_Klasse_ausprogrammierter_Accessor
-{ 
-
-    class Program
+namespace Schroedinger.Tierarten
+{
+    public class Program
     {
-        class Person //neue Klasse: Person
+
+        public class Animal //neue Klasse: Animal
         {
             string firstname = "Harald"; //Standartwert für firstname
             public string Firstname //neue Eigenschaft: Firstname, Syntax: Sichtbarkeit Datentyp Name 
             {
                 get //um Wert einer Eigenschaft auszulesen
                 {
-                    return this.firstname; 
+                    return this.firstname;
                 }
                 set // um der Eigenschaft einen Wert zuzuweisen. Hier kann auf Gültigkeit überprüft werden. z.B. ob eine korrekte Postleitzahl angegeben wurde.
                 {
@@ -20,11 +20,12 @@ namespace _7_S154_Klasse_ausprogrammierter_Accessor
                 }
             }
         }
+
         static void Main(string[] args)
         {
-            Person myPerson = new Person();
+            Animal myAnimal = new Animal();
 
-            Console.WriteLine(myPerson.Firstname);
+            Console.WriteLine(myAnimal.Firstname);
         }
     }
 }
