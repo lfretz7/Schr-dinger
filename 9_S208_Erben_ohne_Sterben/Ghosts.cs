@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _9_S208_Erben_ohne_Sterben
+namespace allGhosts
 {
     public class Ghost
     {
