@@ -13,6 +13,11 @@ namespace _9_S208_Erben_ohne_Sterben
             SlimeGhost ghost2 = new SlimeGhost("Slimey");
             Console.WriteLine("Slime Ghost Name is: {0}", ghost2.Name);
             ghost2.Haunt();
+
+            SlimeGhost ghost3 = new SlimeGhost("Smeargol");
+            ghost3.Size = 5;
+            ghost3.Haunt();
+
         }
     }
 }
