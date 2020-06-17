@@ -56,4 +56,5 @@ namespace _9_S208_Erben_ohne_Sterben
             this.Size += size;
         }
     }
+    sealed class EgoistenKlasse { }
 }
