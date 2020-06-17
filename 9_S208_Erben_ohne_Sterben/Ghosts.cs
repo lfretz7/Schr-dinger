@@ -36,10 +36,25 @@ namespace _9_S208_Erben_ohne_Sterben
     public class CannibalGhost : Ghost
     {
         public CannibalGhost(string name) : base(name) { }
-        public void Eat(Ghost g)
+        public CannibalGhost() : base("") { }
+        public void Eat(ref Ghost g)
+        {
+            IncreaseSize(g.Size);
+            g = null;
+        }
+        public void Eat(ref SlimeGhost g)
+        {
+            IncreaseSize(g.Size);
+            g = null;
+        }
+        public void Eat(ref CannibalGhost g)
+        {
+            IncreaseSize(g.Size);
+            g = null;
+        }
+        private void IncreaseSize(int Size)
         {
             this.Size += g.Size;
-            g = null;
         }
     }
 }

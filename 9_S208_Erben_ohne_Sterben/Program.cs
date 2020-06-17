@@ -18,6 +18,14 @@ namespace _9_S208_Erben_ohne_Sterben
             ghost3.Size = 5;
             ghost3.Haunt();
 
+            //Übung Seite 213
+            SlimeGhost victim = new SlimeGhost("Smeargol");
+            victim.Size = 5;
+            CannibalGhost hungryGhost = new CannibalGhost("Hungry Boy");
+            hungryGhost.Size = 1;
+            hungryGhost.Eat(ref victim);
+            Console.WriteLine("Die Grösse von {0}: {1}", hungryGhost.Name, hungryGhost.Size); ;
+
         }
     }
 }
