@@ -19,8 +19,7 @@ namespace _9_S208_Erben_ohne_Sterben
     }
     public class SlimeGhost : Ghost
     {
-        public SlimeGhost(string name)
-            : base(name)
+        public SlimeGhost(string name) : base(name)
         {
         }
         public override void Haunt()
@@ -52,9 +51,9 @@ namespace _9_S208_Erben_ohne_Sterben
             IncreaseSize(g.Size);
             g = null;
         }
-        private void IncreaseSize(int Size)
+        private void IncreaseSize(int size)
         {
-            this.Size += g.Size;
+            this.Size += size;
         }
     }
 }
