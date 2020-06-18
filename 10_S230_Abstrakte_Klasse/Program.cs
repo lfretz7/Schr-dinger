@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Abstrakte.KLasse;
+using System;
 
 namespace _10_S230_Abstrakte_Klasse
 {
@@ -6,7 +7,11 @@ namespace _10_S230_Abstrakte_Klasse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Shape s = new Rectangle();
+            s.Draw();
+
+            Shape myShape = ShapeFactory.GetShape();
+            myShape.Draw();
         }
     }
 }

@@ -35,5 +35,12 @@ namespace Abstrakte.KLasse
             Console.WriteLine("Zeichne Dreieck");
         }
     }
+    class ShapeFactory
+    {
+        public static Shape GetShape()
+        {
+            return new Rectangle();
+        }
+    }
 
 }
