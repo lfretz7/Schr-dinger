@@ -1,4 +1,5 @@
 ﻿using System;
+using allGhosts;
 
 namespace _9_S208_Erben_ohne_Sterben
 {

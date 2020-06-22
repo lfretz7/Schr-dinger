@@ -67,7 +67,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_S218_Kompilierzeittyp_Lau
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_S221_Gestaltenwandler", "9_S221_Gestaltenwandler\9_S221_Gestaltenwandler.csproj", "{B5AB5F6A-5388-4107-899B-D3CC6ACF629F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A10_S230_Abstrakte_Klasse", "10_S230_Abstrakte_Klasse\A10_S230_Abstrakte_Klasse.csproj", "{7194D226-1ACA-4DA0-B711-0962B7BD456E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A10_S230_Abstrakte_Klasse", "10_S230_Abstrakte_Klasse\A10_S230_Abstrakte_Klasse.csproj", "{7194D226-1ACA-4DA0-B711-0962B7BD456E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A10_S240_Kaffemaschine_im_Einsatz", "10_S240_Kaffemaschine_im_Einsatz\A10_S240_Kaffemaschine_im_Einsatz.csproj", "{B3177E73-D3C3-4BCC-8F2E-34CBB6ACC91A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{7194D226-1ACA-4DA0-B711-0962B7BD456E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7194D226-1ACA-4DA0-B711-0962B7BD456E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7194D226-1ACA-4DA0-B711-0962B7BD456E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3177E73-D3C3-4BCC-8F2E-34CBB6ACC91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3177E73-D3C3-4BCC-8F2E-34CBB6ACC91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3177E73-D3C3-4BCC-8F2E-34CBB6ACC91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3177E73-D3C3-4BCC-8F2E-34CBB6ACC91A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
