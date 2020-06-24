@@ -17,6 +17,17 @@ namespace _10_S240_Kaffemaschine_im_Einsatz
                 drink.GetType().Name,
                 drink.Degree);
             }
+            IHasCaffeine[] caffeineDrinks = new IHasCaffeine[]
+            {
+                 new Coffee() {Caffeine = 100, Degree = 90},
+                new Coke {Caffeine = 25}
+            };
+            foreach (IHasCaffeine drink in caffeineDrinks)
+            {
+                Console.WriteLine("Koffeingehalt von {0} : {1}",
+                    drink.GetType().Name,
+                    drink.Caffeine);
+            }
         }
     }
 }
