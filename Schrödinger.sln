@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A10_S230_Abstrakte_Klasse",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A10_S240_Kaffemaschine_im_Einsatz", "10_S240_Kaffemaschine_im_Einsatz\A10_S240_Kaffemaschine_im_Einsatz.csproj", "{B3177E73-D3C3-4BCC-8F2E-34CBB6ACC91A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A10_S246_Freundin_vs._Chef", "A10_S246_Freundin_vs._Chef\A10_S246_Freundin_vs._Chef.csproj", "{EA7C3791-F934-4969-9565-21E65C3D03D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A10_S246_Freundin_vs._Chef", "A10_S246_Freundin_vs._Chef\A10_S246_Freundin_vs._Chef.csproj", "{EA7C3791-F934-4969-9565-21E65C3D03D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A11_S254_try_catch_finally", "A11_S254_try_catch_finally\A11_S254_try_catch_finally.csproj", "{BB927383-6334-4DFE-BAE8-9F33E75A6FBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{EA7C3791-F934-4969-9565-21E65C3D03D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA7C3791-F934-4969-9565-21E65C3D03D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA7C3791-F934-4969-9565-21E65C3D03D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB927383-6334-4DFE-BAE8-9F33E75A6FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB927383-6334-4DFE-BAE8-9F33E75A6FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB927383-6334-4DFE-BAE8-9F33E75A6FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB927383-6334-4DFE-BAE8-9F33E75A6FBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
