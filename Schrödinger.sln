@@ -75,7 +75,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A10_S246_Freundin_vs._Chef"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S254_try_catch_finally", "A11_S254_try_catch_finally\A11_S254_try_catch_finally.csproj", "{BB927383-6334-4DFE-BAE8-9F33E75A6FBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A11_S257_ArgumentNullException", "A11_S257_ArgumentNullException\A11_S257_ArgumentNullException.csproj", "{2E1793BC-980E-48B6-A0C1-01491BF48B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S257_ArgumentNullException", "A11_S257_ArgumentNullException\A11_S257_ArgumentNullException.csproj", "{2E1793BC-980E-48B6-A0C1-01491BF48B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A11_S265_Fehler_werfen", "A11_S265_Fehler_werfen\A11_S265_Fehler_werfen.csproj", "{A94F8487-60E1-4F60-9115-0D3E23097120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,10 @@ Global
 		{2E1793BC-980E-48B6-A0C1-01491BF48B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1793BC-980E-48B6-A0C1-01491BF48B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1793BC-980E-48B6-A0C1-01491BF48B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94F8487-60E1-4F60-9115-0D3E23097120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94F8487-60E1-4F60-9115-0D3E23097120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94F8487-60E1-4F60-9115-0D3E23097120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94F8487-60E1-4F60-9115-0D3E23097120}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
