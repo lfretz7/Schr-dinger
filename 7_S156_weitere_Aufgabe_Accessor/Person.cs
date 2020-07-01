@@ -8,7 +8,10 @@ namespace Schroedinger.Klassen
     {
         public string Firstname { get; set; }
 
+        public string Name { get; set; }
+
         private DateTime birthday;
+
         public DateTime Birthday
         {
             get { return this.birthday; }

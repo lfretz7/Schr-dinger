@@ -77,11 +77,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S254_try_catch_finally"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S257_ArgumentNullException", "A11_S257_ArgumentNullException\A11_S257_ArgumentNullException.csproj", "{2E1793BC-980E-48B6-A0C1-01491BF48B72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A11_S265_Fehler_werfen", "A11_S265_Fehler_werfen\A11_S265_Fehler_werfen.csproj", "{A94F8487-60E1-4F60-9115-0D3E23097120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S265_Fehler_werfen", "A11_S265_Fehler_werfen\A11_S265_Fehler_werfen.csproj", "{A94F8487-60E1-4F60-9115-0D3E23097120}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A11_S267_WriteHello", "A11_S267_WriteHello\A11_S267_WriteHello.csproj", "{32D1509D-E9AA-4817-9935-57ABA004CDA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S267_WriteHello", "A11_S267_WriteHello\A11_S267_WriteHello.csproj", "{32D1509D-E9AA-4817-9935-57ABA004CDA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A11_S269_Matruschka-Prinzip", "A11_S269_Matruschka-Prinzip\A11_S269_Matruschka-Prinzip.csproj", "{18101E3C-15FA-4867-A8E8-D1BCE4347CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S269_Matruschka-Prinzip", "A11_S269_Matruschka-Prinzip\A11_S269_Matruschka-Prinzip.csproj", "{18101E3C-15FA-4867-A8E8-D1BCE4347CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A11_S273_Parameterprüfung", "A11_S273_Parameterprüfung\A11_S273_Parameterprüfung.csproj", "{8B9D6DB4-80F3-467C-9C65-C355C476D193}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{18101E3C-15FA-4867-A8E8-D1BCE4347CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18101E3C-15FA-4867-A8E8-D1BCE4347CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18101E3C-15FA-4867-A8E8-D1BCE4347CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9D6DB4-80F3-467C-9C65-C355C476D193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9D6DB4-80F3-467C-9C65-C355C476D193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9D6DB4-80F3-467C-9C65-C355C476D193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9D6DB4-80F3-467C-9C65-C355C476D193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
