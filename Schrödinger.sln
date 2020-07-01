@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S267_WriteHello", "A11_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S269_Matruschka-Prinzip", "A11_S269_Matruschka-Prinzip\A11_S269_Matruschka-Prinzip.csproj", "{18101E3C-15FA-4867-A8E8-D1BCE4347CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A11_S273_Parameterprüfung", "A11_S273_Parameterprüfung\A11_S273_Parameterprüfung.csproj", "{8B9D6DB4-80F3-467C-9C65-C355C476D193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S273_Parameterprüfung", "A11_S273_Parameterprüfung\A11_S273_Parameterprüfung.csproj", "{8B9D6DB4-80F3-467C-9C65-C355C476D193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A12_S282_Text_durchsuchen", "A12_S282_Text_durchsuchen\A12_S282_Text_durchsuchen.csproj", "{648A673A-90EB-43BA-85D1-D1443623A38C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{8B9D6DB4-80F3-467C-9C65-C355C476D193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B9D6DB4-80F3-467C-9C65-C355C476D193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B9D6DB4-80F3-467C-9C65-C355C476D193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648A673A-90EB-43BA-85D1-D1443623A38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648A673A-90EB-43BA-85D1-D1443623A38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648A673A-90EB-43BA-85D1-D1443623A38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648A673A-90EB-43BA-85D1-D1443623A38C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
