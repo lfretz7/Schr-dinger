@@ -85,9 +85,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S269_Matruschka-Prinzip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A11_S273_Parameterprüfung", "A11_S273_Parameterprüfung\A11_S273_Parameterprüfung.csproj", "{8B9D6DB4-80F3-467C-9C65-C355C476D193}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A12_S282_Text_durchsuchen", "A12_S282_Text_durchsuchen\A12_S282_Text_durchsuchen.csproj", "{648A673A-90EB-43BA-85D1-D1443623A38C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A12_S282_Text_durchsuchen", "A12_S282_Text_durchsuchen\A12_S282_Text_durchsuchen.csproj", "{648A673A-90EB-43BA-85D1-D1443623A38C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A12_S285_Buchstabensuppe", "A12_S285_Buchstabensuppe\A12_S285_Buchstabensuppe.csproj", "{74CA183E-6039-4926-B184-693B4755FDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A12_S285_Buchstabensuppe", "A12_S285_Buchstabensuppe\A12_S285_Buchstabensuppe.csproj", "{74CA183E-6039-4926-B184-693B4755FDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A12_S291_ArrayList", "A12_S291_ArrayList\A12_S291_ArrayList.csproj", "{345C4AA4-1C86-42A8-92DF-2D2070E64867}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{74CA183E-6039-4926-B184-693B4755FDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74CA183E-6039-4926-B184-693B4755FDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74CA183E-6039-4926-B184-693B4755FDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345C4AA4-1C86-42A8-92DF-2D2070E64867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345C4AA4-1C86-42A8-92DF-2D2070E64867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345C4AA4-1C86-42A8-92DF-2D2070E64867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345C4AA4-1C86-42A8-92DF-2D2070E64867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
